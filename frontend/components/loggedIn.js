@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Nft.module.css";
 import GetNfts from "./getNfts";
 
 export default function LoggedIn() {

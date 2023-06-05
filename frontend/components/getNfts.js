@@ -1,7 +1,7 @@
 import { useAccount } from "wagmi";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Nft.module.css";
 import Card from "./card.js";
 
 export default function getNfts() {
@@ -13,7 +13,7 @@ export default function getNfts() {
     let response;
     async function getData() {
       response = await axios
-        .get(`http://localhost:5001/nft`, {
+        .get(`http://localhost:5001/getnfts`, {
           params: { address, chain },
         })
         .then((response) => {
@@ -32,5 +32,3 @@ export default function getNfts() {
     </section>
   );
 }
-
-// NFT Viewer 관련 component

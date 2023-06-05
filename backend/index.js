@@ -9,7 +9,7 @@ require("dotenv").config({ path: ".env" });
 app.use(cors());
 app.use(express.json());
 
-const MORALIS_API_KEY = "{INPUT_YOUR_MORALIS_API_KEY}";
+const MORALIS_API_KEY = "wJJIN1ZOiBIBB6TmTomf9NCMxL9yKun7TDDESwWzNn0gCGlGDBND7uvettgeZMiE";
 
 app.get("/getethprice", async (req, res) => {
   try {
@@ -121,3 +121,4 @@ Moralis.start({
 
  
 // 2023.06.01(목) - 메뉴바 간결하게 만들기 (Home, Tokens, NFTs)
+

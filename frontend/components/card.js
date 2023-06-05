@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Nft.module.css";
 
 export default function Card(props) {
   const [nft, setNft] = useState(JSON.parse(props.uri.metadata));
@@ -18,4 +18,3 @@ export default function Card(props) {
     </section>
   );
 }
-  // NFT Viewer 관련 component
