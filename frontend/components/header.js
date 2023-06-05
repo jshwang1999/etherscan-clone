@@ -28,7 +28,7 @@ export default function Header() {
         <section className={styles.menu}>
           <a href ="/">Home</a>
           <a href ="/exchange">ETH Exchange</a>
-          <a href ="/nft">NFTs</a>
+          <a href ="/NFT">NFTs</a>
           <a href ="/sendETH">send ETH</a>
         </section>
       </section>
